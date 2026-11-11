@@ -23,7 +23,12 @@ prompt library built from your own questions.
 ---
 
 ### 1.
+where are these? 
+The Rook wiki answers (found “Team directory”)
+The Rook database answers (15 rows)
 
 ### 2.
+what is in the rook database and rook wiki
 
 ### 3.
+What's contradictory or missing, not just in the company documents, but across Rook's wiki, its database, and the files in my repo?

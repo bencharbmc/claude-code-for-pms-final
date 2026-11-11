@@ -161,3 +161,10 @@ happened.
 3. Don't let tickets about the filter persistence change eat my first month
    (Priya calls them cosmetic noise).
 4. Use my outsider view in the first month, while it lasts.
+
+- Interviews (Sofia, 2–5 Sep, 4 handlers) and support tickets (147, 29 Jun–7 Sep) agree on two complaints: pings gone before the responder can answer (3 of 4 interviews, 15 tickets) and responders going quiet (2 of 4 interviews, 30 tickets). All 45 of those tickets were filed on or after 12 Aug and are still open.
+- The quiet tickets are about Farlight, The Undertow, Corporal Ashgrove and Halfmoon. The interviews add Vesper and Meteor Mite, whose handlers filed no tickets; their pings also fell sharply in the database. Kip says The Gale is overloaded at the same time, which no ticket captures.
+- Code (`00-rook/code/dispatch-routing`) vs the Glossary: availability is a filter, not a weighted input. Missed and turned-down pings get the same penalty (−0.12, against +0.08 for a take), and scores never recover. 4.2 also cut the acceptance weight from 0.40 to 0.25, which the release notes don't say.
+- Database: weekly acceptance was 75–78% through 9 Aug, 54% the week of 10 Aug, then 66–73%. There's no data before 29 Jun, so "August is always soft" can't be checked. There are no answer times, so time-to-accept can't be calculated.
+- Tickets mostly come in word-for-word pairs from different handlers. Supply is 26 tickets (18%). 12 of the 14 filter tickets since 4.2 report breakage, not noise. Halloran's praise of maintenance scheduling is contradicted by tickets (service booked on marathon day, late reminders).
+- Still open: Availability Confidence's status, Marcus's 14 Aug question about responders who turn jobs down, Ravi's weekly report (not posted anywhere), and Security Policy 4.1 (not in the wiki).
